@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for Desolate",
+    "visual_studio_name": "Desolate",
+    "comment" : "",
+    "game_projects" : "Desolate",
+
+    "modules" : [
+    ]
+}

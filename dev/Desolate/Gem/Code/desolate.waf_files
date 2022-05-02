@@ -1,0 +1,15 @@
+{
+    "none":
+    {
+        "Include":
+        [
+            "Include/Desolate/DesolateBus.h"
+        ],
+        "Source":
+        [
+            "Source/DesolateModule.cpp",
+            "Source/DesolateSystemComponent.cpp",
+            "Source/DesolateSystemComponent.h"
+        ]
+    }
+}

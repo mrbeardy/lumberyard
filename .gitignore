@@ -103,10 +103,7 @@
 /dev/AssetProcessorTemp
 /dev/BinTemp
 /dev/Bin64
-/dev/Bin64vc141
-/dev/Bin64vc141.Debug
-/dev/Bin64vc142
-/dev/Bin64vc142.Debug
+/dev/Bin64vc*
 /dev/Cache
 /dev/SamplesProject
 /dev/Code/SDKs

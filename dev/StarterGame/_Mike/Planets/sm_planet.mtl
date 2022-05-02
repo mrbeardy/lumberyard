@@ -1,0 +1,20 @@
+<Material MtlFlags="524544" DccMaterialHash="0" vertModifType="0">
+ <SubMaterials>
+  <Material Name="PlanetBeaconMat" MtlFlags="557218" DccMaterialHash="0" Shader="Illum" GenMask="802000080003" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_default" Diffuse="1,1,1" Specular="0,0,0," Emittance="1,1,1,10" Opacity="0.99000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/Effects/FX_HologramMapBeacon_01.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.80000001" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+    <Texture Map="Emittance" File="textures/effects/fx_hologrammapbeacon_01.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="PlanetMat" MtlFlags="557188" DccMaterialHash="0" Shader="Illum" GenMask="800000080003" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_default" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,200" Opacity="0.99000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/Effects/FX_HologramMapMoon_01.tif"/>
+    <Texture Map="Emittance" File="textures/effects/fx_hologrammapmoon_01.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+</Material>

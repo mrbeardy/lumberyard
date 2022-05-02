@@ -1,0 +1,2 @@
+[2022-04-30T13:32:27] [19392:25548:20220430,133227.915:ERROR main.cpp:27] Initializing windows crash uploader
+[2022-04-30T21:56:00] [31008:35888:20220430,215600.609:ERROR main.cpp:27] Initializing windows crash uploader

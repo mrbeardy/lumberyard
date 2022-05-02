@@ -1,0 +1,14 @@
+{
+    "project_name": "Desolate",
+    "product_name": "Desolate",
+    "executable_name": "DesolateLauncher",
+    "modules" : [],
+    "project_id": "{0D9FE776-0CCC-4140-B678-2C17E152FB8D}",
+
+    "android_settings" : {
+        "package_name" : "com.lumberyard.yourgame",
+        "version_number" : 1,
+        "version_name" : "1.0.0",
+        "orientation" : "landscape"
+    }
+}
