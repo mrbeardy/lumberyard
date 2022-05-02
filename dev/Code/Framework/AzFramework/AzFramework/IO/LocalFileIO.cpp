@@ -499,7 +499,7 @@ namespace AZ
             ClearAlias(key);
             char fullPath[AZ_MAX_PATH_LEN];
             ConvertToAbsolutePath(path, fullPath, AZ_MAX_PATH_LEN);
-            m_aliases.push_back(AZStd::pair<const char*, const char*>(key, fullPath));
+            m_aliases.push_back(AZStd::pair<OSString, OSString>(key, fullPath));
         }
 
         const char* LocalFileIO::GetAlias(const char* key)
