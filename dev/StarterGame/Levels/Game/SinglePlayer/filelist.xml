@@ -1,6 +1,6 @@
 <download name="SinglePlayer" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="10160034" md5="19d7539d25b85342fce772bd37390a5d"/>
+  <file src="level.pak" dest="level.pak" size="10163011" md5="4ed051c72bed50129520cc967a0972a8"/>
  </files>
 </download>

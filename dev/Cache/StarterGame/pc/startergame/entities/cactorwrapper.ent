@@ -1,4 +1,0 @@
-<Entity
- Name="ActorEntity" 
- Script="Scripts/Entities/Actor/CActorWrapper.lua"
-/>
