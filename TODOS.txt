@@ -5,9 +5,9 @@ Editor:
   ☐ "Play from here". Starts the game with the player at the current position. The game doesn't really have a concept of a "player", or "player start" like UE, so maybe we can specify what Entity should be teleported, then simply add that as an entity in the world when the level loads. Then that simply sets the position of the entity to its current position.
   ☐ "Move selected entity to current positon" right-click option. Moves whatever objects you have selected to the current camera viewport camera position.
   - Viewport:
-    ☐ Maya navigation setting
+    ☑ Maya navigation setting
     ☐ Outline selected entity
-    ☐ Scroll-wheel while holding right click increases/decreases camera speed
-    ☐ "Don't invert pan during rotation" setting. "Invert pan" option works perfectly, but holding alt to rotate around object is also inverted.
+    ☑ Scroll-wheel while holding right click increases/decreases camera speed
+    ☑ "Don't invert pan during rotation" setting. "Invert pan" option works perfectly, but holding alt to rotate around object is also inverted.
     ☐ Only show gizmo on last-selected entity
     ☐ Add action for "Focus on active". Currently "focus on selected" will focus on the center of all selected entities, which is great, but sometimes not what I want.

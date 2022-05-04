@@ -22,7 +22,11 @@ void CEditorPreferencesPage_ViewportMovement::Reflect(AZ::SerializeContext& seri
         ->Field("FastMoveSpeed", &CameraMovementSettings::m_fastMoveSpeed)
         ->Field("WheelZoomSpeed", &CameraMovementSettings::m_wheelZoomSpeed)
         ->Field("InvertYAxis", &CameraMovementSettings::m_invertYRotation)
-        ->Field("InvertPan", &CameraMovementSettings::m_invertPan);
+        ->Field("InvertPan", &CameraMovementSettings::m_invertPan)
+		->Field("InvertPanDuringOrbit", &CameraMovementSettings::m_invertPanDuringOrbit)
+		->Field("MouseWheelCameraControlsSpeed", &CameraMovementSettings::m_mouseWheelControlsCameraSpeed)
+		->Field("MouseWheelCameraSpeedChange", &CameraMovementSettings::m_mouseWheelCameraSpeedChange)
+		->Field("MayaNavigationMode", &CameraMovementSettings::m_mayaNavigationMode);
 
     serialize.Class<CEditorPreferencesPage_ViewportMovement>()
         ->Version(1)
@@ -38,7 +42,11 @@ void CEditorPreferencesPage_ViewportMovement::Reflect(AZ::SerializeContext& seri
             ->DataElement(AZ::Edit::UIHandlers::SpinBox, &CameraMovementSettings::m_fastMoveSpeed, "Fast Movement Scale", "Fast Movement Scale (holding shift")
             ->DataElement(AZ::Edit::UIHandlers::SpinBox, &CameraMovementSettings::m_wheelZoomSpeed, "Wheel Zoom Speed", "Wheel Zoom Speed")
             ->DataElement(AZ::Edit::UIHandlers::CheckBox, &CameraMovementSettings::m_invertYRotation, "Invert Y Axis", "Invert Y Rotation (holding RMB)")
-            ->DataElement(AZ::Edit::UIHandlers::CheckBox, &CameraMovementSettings::m_invertPan, "Invert Pan", "Invert Pan (holding MMB)");
+            ->DataElement(AZ::Edit::UIHandlers::CheckBox, &CameraMovementSettings::m_invertPan, "Invert Pan", "Invert Pan (holding MMB)")
+			->DataElement(AZ::Edit::UIHandlers::CheckBox, &CameraMovementSettings::m_invertPanDuringOrbit, "Invert Pan during rotation", "Invert Pan during Rotation (Holding Alt+MMB)")
+    		->DataElement(AZ::Edit::UIHandlers::CheckBox, &CameraMovementSettings::m_mouseWheelControlsCameraSpeed, "Mouse wheel controls camera speed", "Mouse Wheel controls camera speed (Holding Right-click)")
+    		->DataElement(AZ::Edit::UIHandlers::SpinBox, &CameraMovementSettings::m_mouseWheelCameraSpeedChange, "Mouse wheel camera speed change", "Amount of camera speed to change when using mouse wheel (Holding Right-click)")
+            ->DataElement(AZ::Edit::UIHandlers::CheckBox, &CameraMovementSettings::m_mayaNavigationMode, "Maya Navigation Mode", "Use Maya Navigation Mode");
 
         editContext->Class<CEditorPreferencesPage_ViewportMovement>("Gizmo Movement Preferences", "Gizmo Movement Preferences")
             ->ClassElement(AZ::Edit::ClassElements::EditorData, "")
@@ -77,6 +85,10 @@ void CEditorPreferencesPage_ViewportMovement::OnApply()
     gSettings.wheelZoomSpeed = m_cameraMovementSettings.m_wheelZoomSpeed;
     gSettings.invertYRotation = m_cameraMovementSettings.m_invertYRotation;
     gSettings.invertPan = m_cameraMovementSettings.m_invertPan;
+    gSettings.invertPanDuringOrbit = m_cameraMovementSettings.m_invertPanDuringOrbit;
+    gSettings.mouseWheelControlsCameraSpeed = m_cameraMovementSettings.m_mouseWheelControlsCameraSpeed;
+    gSettings.mouseWheelCameraSpeedChange = m_cameraMovementSettings.m_mouseWheelCameraSpeedChange;
+    gSettings.mayaNavigationMode = m_cameraMovementSettings.m_mayaNavigationMode;
 }
 
 void CEditorPreferencesPage_ViewportMovement::InitializeSettings()
@@ -87,4 +99,8 @@ void CEditorPreferencesPage_ViewportMovement::InitializeSettings()
     m_cameraMovementSettings.m_wheelZoomSpeed = gSettings.wheelZoomSpeed;
     m_cameraMovementSettings.m_invertYRotation = gSettings.invertYRotation;
     m_cameraMovementSettings.m_invertPan = gSettings.invertPan;
+    m_cameraMovementSettings.m_invertPanDuringOrbit = gSettings.invertPanDuringOrbit;
+    m_cameraMovementSettings.m_mouseWheelControlsCameraSpeed = gSettings.mouseWheelControlsCameraSpeed;
+    m_cameraMovementSettings.m_mouseWheelCameraSpeedChange = gSettings.mouseWheelCameraSpeedChange;
+    m_cameraMovementSettings.m_mayaNavigationMode = gSettings.mayaNavigationMode;
 }

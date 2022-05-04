@@ -325,10 +325,16 @@ protected:
 
     void SetViewTM(const Matrix34& tm, bool bMoveOnly);
 
+    virtual void SetCameraMoveSpeed(float newSpeed) const;
+
     virtual float GetCameraMoveSpeed() const;
     virtual float GetCameraRotateSpeed() const;
     virtual bool  GetCameraInvertYRotation() const;
     virtual float GetCameraInvertPan() const;
+    virtual float GetCameraInvertPanDuringOrbit() const;
+    virtual bool  GetMouseWheelControlsCameraSpeedSetting() const;
+    virtual float GetMouseWheelCameraSpeedChange() const;
+    virtual bool  GetMayaNavigationModeSetting() const;
 
     // Called to render stuff.
     virtual void OnRender();
@@ -428,6 +434,7 @@ protected:
     bool m_bInMoveMode = false;
     bool m_bInOrbitMode = false;
     bool m_bInZoomMode = false;
+    bool m_bRMouseButtonDown = false;
 
     QPoint m_mousePos = QPoint(0, 0);
     QPoint m_prevMousePos = QPoint(0, 0);  // for tablets, you can't use SetCursorPos and need to remember the prior point and delta with that.

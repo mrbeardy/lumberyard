@@ -170,8 +170,12 @@ SEditorSettings::SEditorSettings()
     stylusMode = false;
     restoreViewportCamera = true;
     wheelZoomSpeed = 1;
+    mayaNavigationMode = false;
     invertYRotation = false;
     invertPan = false;
+    invertPanDuringOrbit = false;
+    mouseWheelControlsCameraSpeed = false;
+    mouseWheelCameraSpeedChange = 0.1f;
     fBrMultiplier = 2;
     bPreviewGeometryWindow = true;
     bGeometryBrowserPanel = true;
@@ -518,8 +522,12 @@ void SEditorSettings::Save()
     SaveValue("Settings", "StylusMode", stylusMode);
     SaveValue("Settings", "RestoreViewportCamera", restoreViewportCamera);
     SaveValue("Settings", "WheelZoomSpeed", wheelZoomSpeed);
+    SaveValue("Settings", "MayaNavigationMode", mayaNavigationMode);
     SaveValue("Settings", "InvertYRotation", invertYRotation);
     SaveValue("Settings", "InvertPan", invertPan);
+    SaveValue("Settings", "InvertPanDuringOrbit", invertPanDuringOrbit);
+    SaveValue("Settings", "MouseWheelCameraControlsSpeed", mouseWheelControlsCameraSpeed);
+    SaveValue("Settings", "MouseWheelCameraSpeedChange", mouseWheelCameraSpeedChange);
     SaveValue("Settings", "BrMultiplier", fBrMultiplier);
     SaveValue("Settings", "CameraFastMoveSpeed", cameraFastMoveSpeed);
     SaveValue("Settings", "PreviewGeometryWindow", bPreviewGeometryWindow);
@@ -549,7 +557,7 @@ void SEditorSettings::Save()
     SaveValue("Settings", "EnableSceneInspector", enableSceneInspector);
     SaveValue("Settings", "EnableLegacyUI", enableLegacyUI);
     SaveValue("Settings", "ViewportInteractionModel", newViewportInteractionModel);
-    
+
     //////////////////////////////////////////////////////////////////////////
     // Viewport settings.
     //////////////////////////////////////////////////////////////////////////
@@ -649,7 +657,7 @@ void SEditorSettings::Save()
     SaveValue("Settings\\AssetBrowser", "AutoFilterFromViewportSelection", sAssetBrowserSettings.bAutoFilterFromViewportSelection);
     SaveValue("Settings\\AssetBrowser", "VisibleColumnNames", sAssetBrowserSettings.sVisibleColumnNames);
     SaveValue("Settings\\AssetBrowser", "ColumnNames", sAssetBrowserSettings.sColumnNames);
-      
+
     //////////////////////////////////////////////////////////////////////////
     // Deep Selection Settings
     //////////////////////////////////////////////////////////////////////////
@@ -696,7 +704,7 @@ void SEditorSettings::Save()
     //////////////////////////////////////////////////////////////////////////
     // Metrics settings
     //////////////////////////////////////////////////////////////////////////
-    SaveValue("Settings\\Metrics", "EnableMetricsTracking",    sMetricsSettings.bEnableMetricsTracking);
+    SaveValue("Settings\\Metrics", "EnableMetricsTracking", sMetricsSettings.bEnableMetricsTracking);
 
     //////////////////////////////////////////////////////////////////////////
     // Slice settings
@@ -742,7 +750,7 @@ void SEditorSettings::Load()
     QString     strPlaceholderString;
     // Load settings from registry.
     LoadValue("Settings", "UndoLevels", undoLevels);
-    LoadValue("Settings", "UndoSliceOverrideSaveValue", m_undoSliceOverrideSaveValue);  
+    LoadValue("Settings", "UndoSliceOverrideSaveValue", m_undoSliceOverrideSaveValue);
     LoadValue("Settings", "ShowWelcomeScreenAtStartup", bShowDashboardAtStartup);
     LoadValue("Settings", "ShowCircularDependencyError", m_showCircularDependencyError);
     LoadValue("Settings", "LoadLastLevelAtStartup", bAutoloadLastLevelAtStartup);
@@ -756,8 +764,13 @@ void SEditorSettings::Load()
     LoadValue("Settings", "StylusMode", stylusMode);
     LoadValue("Settings", "RestoreViewportCamera", restoreViewportCamera);
     LoadValue("Settings", "WheelZoomSpeed", wheelZoomSpeed);
+    LoadValue("Settings", "MayaNavigationMode", mayaNavigationMode);
     LoadValue("Settings", "InvertYRotation", invertYRotation);
     LoadValue("Settings", "InvertPan", invertPan);
+    LoadValue("Settings", "InvertPanDuringOrbit", invertPanDuringOrbit);
+    LoadValue("Settings", "MouseWheelCameraControlsSpeed", mouseWheelControlsCameraSpeed);
+    LoadValue("Settings", "MouseWheelCameraSpeedChange", mouseWheelCameraSpeedChange);
+
     LoadValue("Settings", "BrMultiplier", fBrMultiplier);
     LoadValue("Settings", "CameraFastMoveSpeed", cameraFastMoveSpeed);
     LoadValue("Settings", "PreviewGeometryWindow", bPreviewGeometryWindow);

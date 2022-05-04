@@ -497,6 +497,28 @@ void CRenderViewport::OnLButtonDown(Qt::KeyboardModifiers modifiers, const QPoin
         // first try interaction with manipulator
         if (m_manipulatorManager == nullptr || !m_manipulatorManager->ConsumeViewportMousePress(mouseInteraction))
         {
+            if (GetMayaNavigationModeSetting() && RenderViewportUtil::AllowOrbit(modifiers))
+            {
+                m_bInOrbitMode = true;
+                m_orbitTarget =
+                    GetViewTM().GetTranslation() + GetViewTM().TransformVector(FORWARD_DIRECTION) * m_orbitDistance;
+
+                // mouse buttons are treated as keys as well
+                if (m_pressedKeyState == KeyPressedState::AllUp)
+                {
+                    m_pressedKeyState = KeyPressedState::PressedThisFrame;
+                }
+
+                m_mousePos = scaledPoint;
+                m_prevMousePos = scaledPoint;
+
+                HideCursor();
+                CaptureMouse();
+
+                // no further handling of left mouse button down
+                return;
+            }
+
             if (AzToolsFramework::ComponentModeFramework::InComponentMode())
             {
                 EditorInteractionSystemViewportSelectionRequestBus::Event(
@@ -556,9 +578,19 @@ void CRenderViewport::OnLButtonUp(Qt::KeyboardModifiers modifiers, const QPoint&
     }
     else
     {
+
+
         if (m_manipulatorManager == nullptr
             || !m_manipulatorManager->ConsumeViewportMouseRelease(mouseInteraction))
         {
+            if (m_bInOrbitMode)
+            {
+                m_bInOrbitMode = false;
+
+                ReleaseMouse();
+                ShowCursor();
+            }
+
             if (AzToolsFramework::ComponentModeFramework::InComponentMode())
             {
                 AzToolsFramework::EditorInteractionSystemViewportSelectionRequestBus::Event(
@@ -685,8 +717,10 @@ void CRenderViewport::OnRButtonDown(Qt::KeyboardModifiers modifiers, const QPoin
 
     m_mousePos = scaledPoint;
     m_prevMousePos = m_mousePos;
+    m_bRMouseButtonDown = true;
 
     HideCursor();
+
 
     // we can't capture the mouse here, or it will stop the popup menu
     // when the mouse is released.
@@ -737,6 +771,7 @@ void CRenderViewport::OnRButtonUp(Qt::KeyboardModifiers modifiers, const QPoint&
 
     m_bInRotateMode = false;
     m_bInZoomMode = false;
+    m_bRMouseButtonDown = false;
 
     ReleaseMouse();
 
@@ -791,6 +826,7 @@ void CRenderViewport::OnMButtonDown(Qt::KeyboardModifiers modifiers, const QPoin
     {
         if (!(modifiers & Qt::ControlModifier) && !(modifiers & Qt::ShiftModifier))
         {
+            /*
             if (modifiers & Qt::AltModifier)
             {
                 m_bInOrbitMode = true;
@@ -798,8 +834,9 @@ void CRenderViewport::OnMButtonDown(Qt::KeyboardModifiers modifiers, const QPoin
             }
             else
             {
+            */
                 m_bInMoveMode = true;
-            }
+            //}
 
             // mouse buttons are treated as keys as well
             if (m_pressedKeyState == KeyPressedState::AllUp)
@@ -1095,7 +1132,7 @@ void CRenderViewport::ProcessMouse()
         Ang3 angles(-point.y() + m_prevMousePos.y(), 0, -point.x() + m_prevMousePos.x());
         angles = angles * 0.002f * GetCameraRotateSpeed();
 
-        if (GetCameraInvertPan())
+        if (GetCameraInvertPanDuringOrbit())
         {
             angles.z = -angles.z;
         }
@@ -2885,20 +2922,35 @@ void CRenderViewport::OnMouseWheel(Qt::KeyboardModifiers modifiers, short zDelta
 
     if (!handled)
     {
-        Matrix34 m = GetViewTM();
-        const Vec3 ydir = m.GetColumn1().GetNormalized();
+        if (m_bRMouseButtonDown && GetMouseWheelControlsCameraSpeedSetting())
+        {
+			const float currentCameraMoveSpeed = GetCameraMoveSpeed();
+            const float mouseWheelCameraSpeedChange = GetMouseWheelCameraSpeedChange();
+            const float cameraSpeedModifier = zDelta > 0 ? mouseWheelCameraSpeedChange : -mouseWheelCameraSpeedChange;
+            float newCameraMoveSpeed = currentCameraMoveSpeed + cameraSpeedModifier;
 
-        Vec3 pos = m.GetTranslation();
+            if (newCameraMoveSpeed < 0.1f)
+				newCameraMoveSpeed = 0.1f;
 
-        const float posDelta = 0.01f * zDelta * gSettings.wheelZoomSpeed;
-        pos += ydir * posDelta;
-        m_orbitDistance = m_orbitDistance - posDelta;
-        m_orbitDistance = fabs(m_orbitDistance);
+            SetCameraMoveSpeed(newCameraMoveSpeed);
+        }
+        else
+        {
+	        Matrix34 m = GetViewTM();
+	        const Vec3 ydir = m.GetColumn1().GetNormalized();
 
-        m.SetTranslation(pos);
-        SetViewTM(m, true);
+	        Vec3 pos = m.GetTranslation();
 
-        QtViewport::OnMouseWheel(modifiers, zDelta, scaledPoint);
+	        const float posDelta = 0.01f * zDelta * gSettings.wheelZoomSpeed;
+	        pos += ydir * posDelta;
+	        m_orbitDistance = m_orbitDistance - posDelta;
+	        m_orbitDistance = fabs(m_orbitDistance);
+
+	        m.SetTranslation(pos);
+	        SetViewTM(m, true);
+
+	        QtViewport::OnMouseWheel(modifiers, zDelta, scaledPoint);
+        }
     }
 }
 
@@ -2907,6 +2959,11 @@ void CRenderViewport::SetCamera(const CCamera& camera)
 {
     m_Camera = camera;
     SetViewTM(m_Camera.GetMatrix());
+}
+
+void CRenderViewport::SetCameraMoveSpeed(float newSpeed) const
+{
+    gSettings.cameraMoveSpeed = newSpeed;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -2931,6 +2988,26 @@ bool CRenderViewport::GetCameraInvertYRotation() const
 float CRenderViewport::GetCameraInvertPan() const
 {
     return gSettings.invertPan;
+}
+
+float CRenderViewport::GetCameraInvertPanDuringOrbit() const
+{
+	return gSettings.invertPanDuringOrbit;
+}
+
+bool CRenderViewport::GetMouseWheelControlsCameraSpeedSetting() const
+{
+	return gSettings.mouseWheelControlsCameraSpeed;
+}
+
+float CRenderViewport::GetMouseWheelCameraSpeedChange() const
+{
+	return gSettings.mouseWheelCameraSpeedChange;
+}
+
+bool CRenderViewport::GetMayaNavigationModeSetting() const
+{
+	return gSettings.mayaNavigationMode;
 }
 
 //////////////////////////////////////////////////////////////////////////

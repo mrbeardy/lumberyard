@@ -121,6 +121,10 @@
 /dev/Tools/LmbrSetup/Win
 /dev/**/_savebackup
 
+UserSettings.xml
+editoreventlog.xml
+/dev/SessionStatus
+
 # Ignore ico files from Lumberyard folders but preserve ico files in project folders
 /dev/Code/**/*.ico
 /dev/CloudGemSamples/**/*.ico

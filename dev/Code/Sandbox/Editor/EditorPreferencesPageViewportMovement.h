@@ -48,6 +48,10 @@ private:
         float m_wheelZoomSpeed;
         bool m_invertYRotation;
         bool m_invertPan;
+        bool m_invertPanDuringOrbit;
+        bool m_mouseWheelControlsCameraSpeed;
+        float m_mouseWheelCameraSpeedChange;
+        bool m_mayaNavigationMode;
     };
 
     CameraMovementSettings m_cameraMovementSettings;

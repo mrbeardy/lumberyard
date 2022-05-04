@@ -383,6 +383,11 @@ struct SANDBOX_API SEditorSettings
     float wheelZoomSpeed;
     bool invertYRotation;
     bool invertPan;
+    bool invertPanDuringOrbit;
+    bool mouseWheelControlsCameraSpeed;
+    float mouseWheelCameraSpeedChange;
+    bool mayaNavigationMode;
+
     bool stylusMode; // if stylus mode is enabled, no setCursorPos will be performed (WACOM tablets, etc)
     bool restoreViewportCamera; // When true, restore the original editor viewport camera when exiting game mode
 
