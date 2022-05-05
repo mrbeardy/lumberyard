@@ -24,3 +24,4 @@ Builders_Temp
 Bin64vc*
 $tmp*
 _WAF_/_cache_
+**/_savebackup
