@@ -1,0 +1,1588 @@
+<ObjectStream version="3">
+	<Class name="InputEventBindingsAsset" type="{25971C7A-26E2-4D08-A146-2EFCC1C36B0C}">
+		<Class name="InputEventBindings" field="Bindings" version="1" type="{14FFD4A8-AE46-4E23-B45B-6A7C4F787A91}">
+			<Class name="AZStd::vector" field="Input Event Groups" type="{E7A38039-E414-5322-B384-210475DA7732}">
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavForwardBack" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_thumbstick_l_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_thumbstick_l_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavLeftRight" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_thumbstick_l_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_thumbstick_l_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="LookLeftRight" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_thumbstick_r_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1500000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_thumbstick_r_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1500000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="LookUpDown" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_thumbstick_r_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.1500000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_thumbstick_r_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="WeaponSwitch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_l1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_other1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_tab" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_other2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_middle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_button_b" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="DPadUp" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="DPadDown" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_down" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="DPadLeft" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="DPadRight" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="Numpad1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad4" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_4" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad5" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_5" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad6" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_6" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad7" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_7" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad8" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_8" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NumPad9" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_9" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="WeaponFirePressed" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_r2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_0" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="WeaponFireReleased" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_r2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_0" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavForwardBackKM" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_W" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_S" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavLeftRightKM" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_A" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_D" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="LookLeftRightKM" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_delta_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.0010000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="LookUpDownKM" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_delta_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.0010000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavWalkPressed" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_V" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavWalkReleased" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_V" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="AnyKey" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_escape" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_4" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_5" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_6" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_7" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_8" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_9" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_0" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_hyphen" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_equals" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_backspace" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_tab" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_Q" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_W" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_E" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_R" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_T" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_Y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_U" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_I" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_O" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_P" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_bracket_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_bracket_r" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_enter" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_control_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_A" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_S" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_D" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_F" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_G" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_H" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_J" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_K" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_L" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_semicolon" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_apostrophe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_tilde" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_shift_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_backslash" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_Z" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_X" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_C" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_V" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_B" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_N" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_comma" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_period" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_slash" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_shift_r" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_multiply" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_alt_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_space" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_capslock" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F01" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F02" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F03" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F04" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F05" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F06" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F07" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F08" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F09" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F10" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_num_lock" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_windows_system_scroll_lock" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_7" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_8" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_9" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_subtract" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_4" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_5" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_6" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_add" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_0" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_decimal" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F11" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F12" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F13" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F14" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_function_F15" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="colon" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="underline" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_enter" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_control_r" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_numpad_divide" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_windows_system_print" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_alt_r" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_windows_system_pause" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_home" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_arrow_up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_page_up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_arrow_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_arrow_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_end" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_arrow_down" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_page_down" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_insert" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_delete" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_supplementary_iso" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_middle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_other1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_other2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse6" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse7" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse8" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_start" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_l1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_r1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_a" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_b" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_l2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_r2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="touch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="touch_index_0" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="Interact" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_E" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_button_b" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="Jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_space" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_a" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_button_a" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="StrafeMode" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_l2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_shift_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="CancelKey" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_escape" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_backspace" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gestures" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gesture_hold" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="NavUpDown" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_l2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_trigger_r2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_Q" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_E" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="ToggleFlyCam" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_K" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="FlyCamFast" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_r1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="FlyCamSlow" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_l1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="FlyCamFastKM" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_shift_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="FlyCamSlowKM" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_modifier_control_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="FlyCamFOVChange" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_down" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_bracket_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_bracket_r" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_other1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_other2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="-1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="FlyCamFOVReset" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_equals" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="DebugFireMessage" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_M" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="MenuRight" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_D" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_arrow_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_thumbstick_l_right" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_thumbstick_l_r" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="MenuLeft" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_A" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_navigation_arrow_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_d_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_thumbstick_l_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_thumbstick_l_l" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="MenuSelect" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_x" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_edit_enter" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="mouse" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="mouse_button_left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_E" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_a" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_button_b" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="Crouch" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_C" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="gamepad_button_b" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="Profile" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_alphanumeric_P" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="TOD_Forward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_comma" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="virtual_gamepad" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="virtual_gamepad_button_y" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+				<Class name="InputEventGroup" field="element" version="1" type="{25143B7E-2FEC-4CC5-92FE-270B67E79734}">
+					<Class name="AZStd::string" field="Event Name" value="AA_Forward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::vector" field="Event Generators" type="{7B0B6F41-794A-5CFF-8275-91A3137E747D}">
+						<Class name="Input" field="element" version="2" type="{546C9EBC-90EF-4F03-891A-0736BE2A487E}">
+							<Class name="AZStd::string" field="Input Device Type" value="keyboard" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="AZStd::string" field="Input Name" value="keyboard_key_punctuation_period" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+							<Class name="float" field="Event Value Multiplier" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+							<Class name="float" field="Dead Zone" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+						</Class>
+					</Class>
+				</Class>
+			</Class>
+		</Class>
+	</Class>
+</ObjectStream>
+
