@@ -1,0 +1,33 @@
+{
+	"none": {
+		"Source": [
+			"Source/Substance_precompiled.cpp",
+			"Source/Substance_precompiled.h"
+		]
+	},
+	"auto": {
+		"Include": [
+			"Include/Substance/IProceduralMaterial.h",
+			"Include/Substance/ISubstanceAPI.h",
+			"Include/Substance/SubstanceBus.h",
+			"Include/Substance/Types.h"
+		],
+		"Source": [
+			"Source/ProceduralMaterial.cpp",
+			"Source/ProceduralMaterial.h",
+			"Source/ProceduralMaterialHandle.cpp",
+			"Source/ProceduralMaterialHandle.h",
+			"Source/ProceduralTexture.cpp",
+			"Source/ProceduralTexture.h",
+			"Source/Substance.cpp",
+			"Source/SubstanceAPI.h",
+			"Source/SubstanceAPI.cpp",
+			"Source/SubstanceGemSystemComponent.h",
+			"Source/SubstanceGemSystemComponent.cpp",
+			"Source/SubstanceGem.h",
+			"Source/SubstanceGem.cpp",
+			"Source/SubstanceSystem.cpp",
+			"Source/SubstanceSystem.h"
+		]
+	}
+}

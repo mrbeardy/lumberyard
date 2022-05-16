@@ -1,0 +1,10 @@
+{
+    "auto":
+    {
+        "Platform/Linux":
+        [
+            "Oculus_Traits_Platform.h",
+            "Oculus_Traits_Linux.h"
+        ]
+    }
+}

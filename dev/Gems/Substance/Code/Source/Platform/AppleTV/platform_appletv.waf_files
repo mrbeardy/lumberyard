@@ -1,0 +1,11 @@
+{
+    "auto":
+    {
+        "Platform/AppleTV":
+        [
+            "ProceduralMaterial_AppleTV.cpp",
+            "Substance_Traits_Platform.h",
+            "Substance_Traits_AppleTV.h"
+        ]
+    }
+}

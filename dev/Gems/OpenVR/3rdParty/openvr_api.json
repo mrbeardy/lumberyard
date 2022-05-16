@@ -1,0 +1,10 @@
+{
+    "name": "openvr",
+    "source": "@GEM@/External/OpenVR/1.0.3",
+    "description": "Virtual Reality Head-Mounted Display SDK for the HTC Vive",
+    "system_includes": [
+        "headers"
+    ],
+    "defines": [],
+    "lib_required": "True"
+}

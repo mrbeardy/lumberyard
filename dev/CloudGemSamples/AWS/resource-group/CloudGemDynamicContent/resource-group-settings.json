@@ -1,4 +1,0 @@
-{
-    "ValidateWritableOnUploadResources": [ "DynamicContent/Manifests/DynamicContentTest.json" ],
-    "DynamicContentDefaultManifest": "DynamicContentTest.json"
-}

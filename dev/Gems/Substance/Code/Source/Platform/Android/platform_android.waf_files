@@ -1,0 +1,11 @@
+{
+    "auto":
+    {
+        "Platform/Android":
+        [
+            "ProceduralMaterial_Android.cpp",
+            "Substance_Traits_Platform.h",
+            "Substance_Traits_Android.h"
+        ]
+    }
+}

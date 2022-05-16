@@ -1,0 +1,10 @@
+{
+    "name": "LibOVR",
+    "source": "@GEM@/External/LibOVR/1.9.0",
+    "description": "Support library for Oculus Rift",
+    "system_includes": [
+        "Include"
+    ],
+    "defines": [],
+    "lib_required": "True"
+}

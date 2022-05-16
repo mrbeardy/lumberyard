@@ -1,0 +1,21 @@
+{
+    "aliases": {
+        "ios_staticlib_names": [
+            "substance_framework",
+            "substance_linker",
+            "tinyxml",
+            "substance_neon_blend",
+            "algcompression",
+            "pfxlinkercommon"
+        ]
+    },
+    "platform": {
+        "ios": {
+            "libpath_debug": [ "${substance_api_path}/lib/ios/release" ],
+            "libpath_profile": [ "${substance_api_path}/lib/ios/release" ],
+            "libpath_performance": [ "${substance_api_path}/lib/ios/release" ],
+            "libpath_release": [ "${substance_api_path}/lib/ios/release" ],
+            "lib": [ "lib${ios_staticlib_names}.a" ]
+        }
+    }
+}

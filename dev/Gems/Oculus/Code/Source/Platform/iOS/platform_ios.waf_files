@@ -1,0 +1,10 @@
+{
+    "auto":
+    {
+        "Platform/iOS":
+        [
+            "Oculus_Traits_Platform.h",
+            "Oculus_Traits_iOS.h"
+        ]
+    }
+}

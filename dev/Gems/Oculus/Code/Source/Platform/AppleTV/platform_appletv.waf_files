@@ -1,0 +1,10 @@
+{
+    "auto":
+    {
+        "Platform/AppleTV":
+        [
+            "Oculus_Traits_Platform.h",
+            "Oculus_Traits_AppleTV.h"
+        ]
+    }
+}

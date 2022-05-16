@@ -1,0 +1,13 @@
+{
+    "none": {
+        "Source": [
+            "Source/OpenVR_precompiled.cpp",
+            "Source/OpenVR_precompiled.h"
+        ]
+    },
+    "auto": {
+        "Source": [
+            "Source/OpenVRGem.cpp"
+        ]
+    }
+}

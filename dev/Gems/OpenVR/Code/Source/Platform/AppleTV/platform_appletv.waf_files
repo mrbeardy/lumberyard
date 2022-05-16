@@ -1,0 +1,10 @@
+{
+    "auto":
+    {
+        "Platform/AppleTV":
+        [
+            "OpenVR_Traits_Platform.h",
+            "OpenVR_Traits_AppleTV.h"
+        ]
+    }
+}

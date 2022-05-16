@@ -1,0 +1,23 @@
+{
+    "aliases": {
+        "mac_staticlib_names": [
+            "substance_framework",
+            "substance_linker",
+            "tinyxml",
+            "algcompression",
+            "pfxlinkercommon"
+        ],
+        "mac_sharedlib_names": [
+        ]
+    },
+    "platform": {
+        "darwin_x64": {
+            "sharedlibpath_debug": [ "${substance_api_path}/bin/mac/debug" ],
+            "sharedlibpath_release": [ "${substance_api_path}/bin/mac/release" ],
+            "libpath_debug": [ "${substance_api_path}/lib/mac/debug" ],
+            "libpath_release": [ "${substance_api_path}/lib/mac/release" ],
+            "lib": [ "lib${mac_staticlib_names}.a" ],
+            "shared": [ "lib${mac_sharedlib_names}.dylib" ]
+        }
+    }
+}

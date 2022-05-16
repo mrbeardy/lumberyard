@@ -1,0 +1,21 @@
+{
+    "platform": {
+        "win_x64_vs2017": {
+            "importlibpath": [
+                "lib/win64"
+            ],
+            "sharedlibpath": [
+                "bin/win64"
+            ],
+            "import": [
+                "openvr_api.lib"
+            ],
+            "shared": [
+                "openvr_api.dll"
+            ],
+            "pdb": [
+                "openvr_api.pdb"
+            ]
+        }
+    }
+}

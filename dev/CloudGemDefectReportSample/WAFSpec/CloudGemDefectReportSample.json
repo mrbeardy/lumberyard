@@ -1,9 +1,0 @@
-{
-    "description": "Configuration for CloudGemDefectReportSample",
-    "visual_studio_name": "CloudGemDefectReportSample",
-    "comment" : "",
-    "game_projects" : "CloudGemDefectReportSample",
-
-    "modules" : [
-    ]
-}

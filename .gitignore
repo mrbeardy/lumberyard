@@ -113,18 +113,11 @@
 /dev/Bin64
 /dev/Bin64vc*
 /dev/Cache
-/dev/SamplesProject
 /dev/Code/SDKs
 /dev/Code/Sandbox/SDKs
 /dev/Solutions
 /dev/Code/Tools/SDKs
-/dev/MultiplayerSample
-/dev/MultiplayerProject
-/dev/Gems/GameEffectSystem
-/dev/Gems/Oculus
-/dev/Gems/OpenVR
 /dev/Gems/PBSreferenceMaterials
-/dev/Gems/Substance
 /dev/Tools/CrySCompileServer/x64
 /dev/Tools/LmbrSetup/Win
 **/_savebackup
@@ -143,3 +136,11 @@
 /dev/SetupAssistantUserPreferences.ini
 /dev/_WAF_/environment.json
 /SetupAssistant.bat
+
+# Ignored projects
+/dev/NEMO/
+/dev/CloudGemSamples
+/dev/CloudGemDefectReportSample
+/dev/SamplesProject
+/dev/MultiplayerSample
+/dev/MultiplayerProject

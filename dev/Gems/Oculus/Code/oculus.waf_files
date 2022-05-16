@@ -1,0 +1,13 @@
+{
+    "none": {
+        "Source": [
+            "Source/Oculus_precompiled.cpp",
+            "Source/Oculus_precompiled.h"
+        ]
+    },
+    "auto": {
+        "Source": [
+            "Source/OculusGem.cpp"
+        ]
+    }
+}

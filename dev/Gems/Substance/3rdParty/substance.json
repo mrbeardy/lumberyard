@@ -1,0 +1,12 @@
+{
+    "name": "substance",
+    "source": "@GEM@",
+    "description": "Allegorithmic Substance API",
+    "system_includes": ["External/6.0.0/include", "Code/Include"],
+    "aliases": {
+        "substance_api_path" : [
+            "External/6.0.0"
+        ]
+    },
+    "lib_required": "True"
+}

@@ -1,0 +1,11 @@
+{
+    "auto":
+    {
+        "Platform/iOS":
+        [
+            "ProceduralMaterial_iOS.cpp",
+            "Substance_Traits_Platform.h",
+            "Substance_Traits_iOS.h"
+        ]
+    }
+}

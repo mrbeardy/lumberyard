@@ -1,0 +1,24 @@
+{
+    "aliases": {
+        "win_staticlib_names": [
+            "substance_framework",
+            "substance_linker",
+            "tinyxml"
+        ],
+        "win_sharedlib_names": [
+            "substance_linker",
+            "substance_d3d11pc_blend",
+            "substance_sse2_blend"
+        ]
+    },
+    "platform": {
+        "win_x64_vs2017": {
+            "sharedlibpath_debug": [ "${substance_api_path}/bin/win32-msvc2015-64/debug_md/" ],
+            "sharedlibpath_release": [ "${substance_api_path}/bin/win32-msvc2015-64/release_md/" ],
+            "importlibpath_debug": [ "${substance_api_path}/lib/win32-msvc2015-64/debug_md/" ],
+            "importlibpath_release": [ "${substance_api_path}/lib/win32-msvc2015-64/release_md/" ],
+            "import": [ "${win_staticlib_names}.lib" ],
+            "shared": [ "${win_sharedlib_names}.dll" ]
+        }
+    }
+}

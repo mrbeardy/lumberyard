@@ -1,0 +1,11 @@
+{
+    "auto":
+    {
+        "Platform/Mac":
+        [
+            "../Common/NonMobile/ProceduralMaterial_NonMobile.cpp",
+            "Substance_Traits_Platform.h",
+            "Substance_Traits_Mac.h"
+        ]
+    }
+}

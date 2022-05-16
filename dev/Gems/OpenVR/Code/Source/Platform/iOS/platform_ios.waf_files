@@ -1,0 +1,10 @@
+{
+    "auto":
+    {
+        "Platform/iOS":
+        [
+            "OpenVR_Traits_Platform.h",
+            "OpenVR_Traits_iOS.h"
+        ]
+    }
+}

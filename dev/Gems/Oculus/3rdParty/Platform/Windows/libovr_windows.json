@@ -1,0 +1,15 @@
+{
+    "platform": {
+        "win_x64_vs2017": {
+            "libpath_debug": [
+                "Lib/Windows/x64/Debug/VS2015/"
+            ],
+            "libpath_release": [
+                "Lib/Windows/x64/Release/VS2015/"
+            ],
+            "lib": [
+                "LibOVR.lib"
+            ]
+        }
+    }
+}

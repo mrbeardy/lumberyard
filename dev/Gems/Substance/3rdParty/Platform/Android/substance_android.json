@@ -1,0 +1,21 @@
+{
+    "aliases": {
+        "android_staticlib_names": [
+            "substance_framework",
+            "substance_linker",
+            "tinyxml",
+            "substance_neon_blend",
+            "algcompression",
+            "pfxlinkercommon"
+        ]
+    },
+    "platform": {
+        "android_armv8_clang": {
+            "libpath_debug": [ "${substance_api_path}/lib/android-arm64-v8a/release" ],
+            "libpath_profile": [ "${substance_api_path}/lib/android-arm64-v8a/release" ],
+            "libpath_performance": [ "${substance_api_path}/lib/android-arm64-v8a/release" ],
+            "libpath_release": [ "${substance_api_path}/lib/android-arm64-v8a/release" ],
+            "lib": [ "lib${android_staticlib_names}.a" ]
+        }
+    }
+}
