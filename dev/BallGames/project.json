@@ -1,0 +1,14 @@
+{
+    "project_name": "BallGames",
+    "product_name": "BallGames",
+    "executable_name": "BallGamesLauncher",
+    "modules" : [],
+    "project_id": "{565742B2-C58E-414D-88C6-5E50FABE3364}",
+
+    "android_settings" : {
+        "package_name" : "com.lumberyard.yourgame",
+        "version_number" : 1,
+        "version_name" : "1.0.0",
+        "orientation" : "landscape"
+    }
+}

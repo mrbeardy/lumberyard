@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for BallGames",
+    "visual_studio_name": "BallGames",
+    "comment" : "",
+    "game_projects" : "BallGames",
+
+    "modules" : [
+    ]
+}

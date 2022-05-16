@@ -1,0 +1,33 @@
+<ObjectStream version="3">
+	<Class name="PhysXConfiguration" version="1" type="{5E050D96-04E0-4863-8F4F-1E2E2B567022}">
+		<Class name="Settings" field="Settings" version="2" type="{BA958D76-E323-4F94-86E2-004E63957CB6}">
+			<Class name="AZStd::string" field="PvdHost" value="127.0.0.1" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+			<Class name="int" field="PvdPort" value="5425" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="unsigned int" field="PvdTimeout" value="10" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+			<Class name="int" field="PvdTransportType" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="AZStd::string" field="PvdFileName" value="physxDebugInfo.pxd2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+			<Class name="int" field="PvdAutoConnectMode" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="bool" field="PvdReconnect" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+			<Class name="ColliderProximityVisualization" field="ColliderProximityVisualization" version="1" type="{2A9BA0AE-C6A7-4F87-B7F0-D62444035478}">
+				<Class name="bool" field="Enabled" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+				<Class name="Vector3" field="CameraPosition" value="0.0000000 0.0000000 0.0000000" type="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}"/>
+				<Class name="float" field="Radius" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+			</Class>
+		</Class>
+		<Class name="EditorConfiguration" field="EditorConfiguration" version="4" type="{016890FC-F1EB-478B-822E-1A40977ECBBB}">
+			<Class name="float" field="COMDebugSize" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+			<Class name="Color" field="COMDebugColor" value="1.0000000 0.0000000 0.0000000 1.0000000" type="{7894072A-9050-4F0F-901B-34B1A0D29417}"/>
+			<Class name="int" field="GlobalColliderDebugDraw" value="2" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="int" field="GlobalColliderDebugDrawColorMode" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="bool" field="ShowJointHierarchy" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+			<Class name="int" field="JointHierarchyLeadColor" value="0" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="int" field="JointHierarchyFollowerColor" value="4" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
+			<Class name="float" field="JointHierarchyDistanceThreshold" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+		</Class>
+		<Class name="WindConfiguration" field="WindConfiguration" version="1" type="{6EA3E646-ECDA-4044-912D-5722D5100066}">
+			<Class name="AZStd::string" field="GlobalWindTag" value="global_wind" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+			<Class name="AZStd::string" field="LocalWindTag" value="wind" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		</Class>
+	</Class>
+</ObjectStream>
+

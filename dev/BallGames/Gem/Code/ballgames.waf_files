@@ -1,0 +1,14 @@
+{
+  "none":
+  {
+    "Include": [
+      "Include/**/*.cpp",
+      "Include/**/*.h"
+    ],
+
+    "Source": [
+      "Source/**/*.cpp",
+      "Source/**/*.h"
+    ]
+  }
+}
