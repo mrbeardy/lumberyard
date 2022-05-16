@@ -533,6 +533,7 @@ namespace PhysX
         }
     }
 
+
     void RigidBody::ApplyAngularImpulse(const AZ::Vector3& angularImpulse)
     {
         if (m_pxRigidActor)
@@ -552,6 +553,29 @@ namespace PhysX
 
             PHYSX_SCENE_WRITE_LOCK(scene);
             m_pxRigidActor->addTorque(PxMathConvert(Utils::Sanitize(angularImpulse)), physx::PxForceMode::eIMPULSE);
+        }
+    }
+
+    void RigidBody::AddForce(const AZ::Vector3& force, bool bAccelerationChange)
+    {
+        if (m_pxRigidActor)
+        {
+            physx::PxScene* scene = m_pxRigidActor->getScene();
+
+            if (!scene)
+            {
+                AZ_Warning("Physx Rigid Body", false, "AddForce is only valid if the rigid body has been add to a scene, Name: %s", GetName().c_str());
+                return;
+            }
+
+            if (!IsKinematic())
+            {
+                AZ_Warning("PhysX Rigid Body", false, "AddForce is only valid if the rigid body is not kinematic. Name: %s", GetName().c_str());
+                return;
+            }
+
+            PHYSX_SCENE_WRITE_LOCK(scene);
+            m_pxRigidActor->addForce(PxMathConvert(Utils::Sanitize(force)), bAccelerationChange ? physx::PxForceMode::eACCELERATION : physx::PxForceMode::eFORCE);
         }
     }
 

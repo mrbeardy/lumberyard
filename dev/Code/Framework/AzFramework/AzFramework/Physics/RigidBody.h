@@ -182,6 +182,8 @@ namespace Physics
         virtual void ApplyLinearImpulseAtWorldPoint(const AZ::Vector3& impulse, const AZ::Vector3& worldPoint) = 0;
         virtual void ApplyAngularImpulse(const AZ::Vector3& angularImpulse) = 0;
 
+        virtual void AddForce(const AZ::Vector3& force, bool bAccelerationChange) = 0;
+
         virtual float GetLinearDamping() const = 0;
         virtual void SetLinearDamping(float damping) = 0;
         virtual float GetAngularDamping() const = 0;

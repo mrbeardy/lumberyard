@@ -62,6 +62,8 @@ namespace PhysX
         void ApplyLinearImpulseAtWorldPoint(const AZ::Vector3& impulse, const AZ::Vector3& worldPoint) override;
         void ApplyAngularImpulse(const AZ::Vector3& angularImpulse) override;
 
+        void AddForce(const AZ::Vector3& force, bool bAccelerationChange = false) override;
+
         bool IsKinematic() const override;
         void SetKinematic(bool isKinematic) override;
         void SetKinematicTarget(const AZ::Transform& targetPosition) override;

@@ -67,6 +67,8 @@ namespace PhysX
                 ->Event("ApplyLinearImpulseAtWorldPoint", &RigidBodyRequests::ApplyLinearImpulseAtWorldPoint)
                 ->Event("ApplyAngularImpulse", &RigidBodyRequests::ApplyAngularImpulse)
 
+                ->Event("AddForce", &RigidBodyRequests::AddForce)
+
                 ->Event("GetLinearDamping", &RigidBodyRequests::GetLinearDamping)
                 ->Event("SetLinearDamping", &RigidBodyRequests::SetLinearDamping)
                 ->Event("GetAngularDamping", &RigidBodyRequests::GetAngularDamping)
