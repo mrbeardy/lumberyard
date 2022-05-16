@@ -1,6 +1,0 @@
-<download name="Sandbox" type="Map">
- <index src="filelist.xml" dest="filelist.xml"/>
- <files>
-  <file src="level.pak" dest="level.pak" size="7930" md5="0068a2510133fd18e9e45332696d5562"/>
- </files>
-</download>

@@ -127,10 +127,11 @@
 /dev/Gems/Substance
 /dev/Tools/CrySCompileServer/x64
 /dev/Tools/LmbrSetup/Win
-/dev/**/_savebackup
+**/_savebackup
+**/_autobackup
 
-UserSettings.xml
-editoreventlog.xml
+/dev/UserSettings.xml
+/dev/Editor/editoreventlog.xml
 /dev/SessionStatus
 
 # Ignore ico files from Lumberyard folders but preserve ico files in project folders

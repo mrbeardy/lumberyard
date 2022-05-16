@@ -4,6 +4,9 @@
 
 #include <DesolateSystemComponent.h>
 
+#include "Game/BallComponent.h"
+#include "Game/BallTrackerComponent.h"
+
 namespace Desolate
 {
     class DesolateModule
@@ -19,6 +22,13 @@ namespace Desolate
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
             m_descriptors.insert(m_descriptors.end(), {
                 DesolateSystemComponent::CreateDescriptor(),
+            });
+            m_descriptors.insert(m_descriptors.end(), {
+                BallTrackerComponent::CreateDescriptor(),
+            });
+
+            m_descriptors.insert(m_descriptors.end(), {
+                BallComponent::CreateDescriptor(),
             });
         }
 

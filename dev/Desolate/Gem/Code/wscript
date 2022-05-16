@@ -2,7 +2,10 @@
 def build(bld):
     bld.DefineGem(
         # General
-        includes                = ['Include'],
+        includes                = [
+                                    'Include',
+                                    bld.Path('Gems/LmbrCentral')
+                                  ],
         use                     = ['AzGameFramework'],
         disable_pch             = True,
         file_list               = ['desolate.waf_files'],

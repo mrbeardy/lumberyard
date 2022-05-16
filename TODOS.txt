@@ -1,4 +1,5 @@
 Editor:
+  ☐ Physx - AddForce method
   ☐ Multiple asset browsers
   ☐ "Jump to asset" button. Will allow you to jump to the asset in the asset browser for the current Entity ID. Look at "Find slice in asset browser" for example code.
   ☐ "Use selected asset" button. Uses the selected asset in the asset browser and fills it into an Entity ID field.
@@ -8,6 +9,7 @@ Editor:
     ☑ Maya navigation setting
     ☐ Outline selected entity
     ☑ Scroll-wheel while holding right click increases/decreases camera speed
-    ☑ "Don't invert pan during rotation" setting. "Invert pan" option works perfectly, but holding alt to rotate around object is also inverted.
+    ☑ "Don't invert pan during rotation" setting - "Invert pan" option works perfectly, but holding alt to rotate around object is also inverted.
     ☐ Only show gizmo on last-selected entity
-    ☐ Add action for "Focus on active". Currently "focus on selected" will focus on the center of all selected entities, which is great, but sometimes not what I want.
+    ☐ Add action for "Focus on active" -  Currently "focus on selected" will focus on the center of all selected entities, which is great, but sometimes not what I want.
+    ☐ Timer on Right-click to show context menu to avoid it popping up if mouse doesn't move

@@ -9,7 +9,11 @@
         [
             "Source/DesolateModule.cpp",
             "Source/DesolateSystemComponent.cpp",
-            "Source/DesolateSystemComponent.h"
+            "Source/DesolateSystemComponent.h",
+            "Source/Game/BallTrackerComponent.h",
+            "Source/Game/BallTrackerComponent.cpp",
+            "Source/Game/BallComponent.h",
+            "Source/Game/BallComponent.cpp"
         ]
     }
 }

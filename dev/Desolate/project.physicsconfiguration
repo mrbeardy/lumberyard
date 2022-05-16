@@ -22,7 +22,7 @@
 			<Class name="CollisionLayers" field="Layers" version="1" type="{68E7CB59-29BC-4825-AE99-182D6421EE65}">
 				<Class name="AZStd::array" field="LayerNames" type="{31FBDCF6-2A08-5263-861E-70788DD17113}">
 					<Class name="AZStd::string" field="element" value="Default" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
-					<Class name="AZStd::string" field="element" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="element" value="TouchBend" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 					<Class name="AZStd::string" field="element" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 					<Class name="AZStd::string" field="element" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 					<Class name="AZStd::string" field="element" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
@@ -101,11 +101,21 @@
 					</Class>
 					<Class name="Preset" field="element" version="1" type="{032D1485-60A4-45B6-8D74-5B38C929B066}">
 						<Class name="Id" field="Id" version="1" type="{DFED4FE5-2292-4F07-A318-41C68DAEFE9C}">
-							<Class name="AZ::Uuid" field="GroupId" value="{F0D2F9AE-4DB7-4319-85CA-0E9396A1D79A}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+							<Class name="AZ::Uuid" field="GroupId" value="{43438DC0-A091-4BEE-81A5-549AC6766B5E}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 						</Class>
 						<Class name="AZStd::string" field="Name" value="None" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 						<Class name="CollisionGroup" field="Group" version="1" type="{E6DA080B-7ED1-4135-A78C-A6A5E495A43E}">
 							<Class name="AZ::u64" field="Mask" value="0" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+						</Class>
+						<Class name="bool" field="ReadOnly" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+					</Class>
+					<Class name="Preset" field="element" version="1" type="{032D1485-60A4-45B6-8D74-5B38C929B066}">
+						<Class name="Id" field="Id" version="1" type="{DFED4FE5-2292-4F07-A318-41C68DAEFE9C}">
+							<Class name="AZ::Uuid" field="GroupId" value="{F3B7F01B-71EC-4D6E-B35D-CDAE96691E2D}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+						</Class>
+						<Class name="AZStd::string" field="Name" value="All_NoTouchBend" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+						<Class name="CollisionGroup" field="Group" version="1" type="{E6DA080B-7ED1-4135-A78C-A6A5E495A43E}">
+							<Class name="AZ::u64" field="Mask" value="18446744073709551613" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 						</Class>
 						<Class name="bool" field="ReadOnly" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 					</Class>
